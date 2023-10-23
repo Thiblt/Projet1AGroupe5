@@ -1,0 +1,63 @@
+body {
+    color: #1C5386;
+}
+
+/* Haut de la page produit */
+
+.TopPage {
+    background-image: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
+    url("../assets/imgs/velomobile_p3.webp");
+    height: 15em;
+    background-size: cover;
+    background-repeat: no-repeat
+ 
+
+}
+
+.TopPage h1{
+    text-align: center;
+    margin-block-start:0;
+    padding-top: 20%;
+    color: white;
+}
+
+.RedButton {
+    color: white;
+    background-color: #D8261A; 
+    border-radius: 12px;
+    padding: 0.5em 1em 0.5em 1em;
+    text-align: center;
+    border: none;
+}
+
+/* Article sur le transport classique et ses inconvénients */
+
+.TransportClassique {
+    display: flex;
+    flex-direction: row;
+}
+
+.Inconvénients{
+    display: flex;
+    flex-direction: column;
+}
+
+.ImgTransport{
+    width: 40%;
+    height: auto;
+    padding-left: 5% ;
+    padding-right: 5%;
+    border-radius: 20%;
+}
+
+.Transport{
+    margin: 0 5% 0 5%
+}
+
+.TextList {
+    color: #303030;
+}
+
+.ListeInconvénient{
+    margin: 0;
+}
