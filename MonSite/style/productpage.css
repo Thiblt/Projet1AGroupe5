@@ -1,7 +1,9 @@
 body {
     color: #1C5386;
 }
-
+p{
+    margin-right: 5%;
+}
 /* Haut de la page produit */
 
 .TopPage {
@@ -9,15 +11,18 @@ body {
     url("../assets/imgs/velomobile_p3.webp");
     height: 15em;
     background-size: cover;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
  
 
 }
 
 .TopPage h1{
     text-align: center;
-    margin-block-start:0;
-    padding-top: 20%;
     color: white;
 }
 
@@ -50,8 +55,8 @@ body {
     border-radius: 20%;
 }
 
-.Transport{
-    margin: 0 5% 0 5%
+.Container{
+    margin: 0 5% 0 5%;
 }
 
 .TextList {
@@ -61,3 +66,12 @@ body {
 .ListeInconvénient{
     margin: 0;
 }
+
+/* Presentation modèle */
+
+.ImgModele{
+    width: 80%;
+    height: auto;
+}
+
+.color
