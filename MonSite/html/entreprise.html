@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./../style/main.css" />
     <link rel="stylesheet" href="./../style/header.css" />
     <link rel="stylesheet" href="./../style/map.css" />
+    <link rel="stylesheet" href="../style/footer.css" />
     <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500&display=swap" rel="stylesheet" />
 
     <!-- ******************<LEAFLET/> **********************-->
@@ -27,6 +28,42 @@
     <!-- ******************** HEADER  ******************** -->
 
     <header class="TopPage_entreprise">
+      <nav class="navbar">
+        <div class="logotitre">
+          <img src="../assets/imgs/logo.webp" id="logo">
+          <h1 id="h1navbar">Le Vélomobile<br>Français</h1>
+        </div>
+            <div class="menu-container">
+              <label for="menu-toggle" id="menu-icon">
+                  <img src="/asset/burger-bar.png" style="width: 30px; height: 30px;"><input type="checkbox" id="menu-toggle">
+                  <div class="menu">
+                    <ul>
+                      <li><a href="#home"> Accueil </a></li>
+                      <li><a href="#pricing"> Nos vélomobiles </a></li>
+                      <li><a href="/html/entreprise.html"> Notre entreprise </a> </li>
+                      <li><a href="/html/atelier.html"> Notre atelier </a></li>
+                    </ul>
+                    <ul>
+                      <li>
+                        <button id="newsletter" href=""> newsletter </a>
+                      </li>
+                    </ul>
+                  </div>
+                </label>
+            </div>
+            
+   
+              <ul id="grandul">
+                <li class="grandli"><a href='http://'>Accueil</a></li>
+                <li class="grandli"><a href='http://'> Nos vélomobiles</a></li>
+                <li class="grandli"><a href='http://'>Notre entreprise</a></li>
+                <li class="grandli"><a href='http://'>Notre atelier</a></li>
+                <li class="grandli">
+                <a><button id="grandbnt" href="">newsletter</a>
+                </li>
+              </ul>
+            
+      </nav>
       <h1>Notre entreprise</h1>
       <div>
         <button type="submit">Contactez-nous</button>
@@ -194,193 +231,90 @@
     <!-- ******************** FOOTER ******************** -->
 
     <footer>
-      <!-- ******************** NEWSLETTER ******************** -->
-
-      <section class="bluefooter bgnewsletter">
-        <h2 class="blanc">Abonnez-vous à notre Newsletter</h2>
-
-        <p class="blanc">
+      
+      <div class="footer-newsletter">
+        <h2>
+          Abonnez-vous <br />
+          à notre newsletter
+        </h2>
+        <p class="p-newsletter">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nostrum
           quisquam nesciunt perspiciatis quibusdam quia ullam natus quod ipsum
-          corrupti pariatur modi minima. Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Aut nostrum quisquam nesciunt perspiciatis quibusdam
-          quia ullam natus quod ipsum corrupti pariatur modi minima.
+          corrupti pariatur modi minima.
         </p>
-
         <form action="">
-          <div class="flexnews">
-            <div class="twocols">
-              <label for="email"></label>
-              <input
-                type="email"
-                id="email"
-                size="30"
-                required
-                placeholder="Email*"
-                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-              />
-              <p>En s'abonnant, vous acceptez les conditions d'utilisation</p>
-            </div>
-
-            <div>
-              <button type="submit">S'abonner</button>
-            </div>
-          </div>
+          <label for="email"></label>
+          <input type="email" id="email" size="30" required placeholder="Email*" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"/>
+          <p>En s'abonnant, vous acceptez les conditions d'utilisation</p>
+          <input type="submit" value="S'abonner" />
         </form>
-      </section>
+        <p class="p-resp">
+          En s'abonnant, vous acceptez les conditions d'utilisation
+        </p>
+      </div>
 
-      <!-- ******************** FORMULAIRE DE CONTACT ******************** -->
-
-      <section class="bluefooter">
-        <h2 class="blanc">Formulaire de contact</h2>
-
+      <div class="footer-form">
+        <h2>Formulaire de contact</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor ullam
+          quibusdam, nostrum esse eius delectus facilis.
+        </p>
         <form action="">
-          <div class="flex">
-            <div class="twocols">
-              <label for="name"></label>
-              <input
-                type="text"
-                name="name"
-                id="name"
-                required
-                placeholder="Nom*"
-                pattern="^[A-Za-zÀ-ÖØ-öø-ÿ-' ]+$"
-                size="20"
-              />
-            </div>
-
-            <div class="twocols">
-              <label for="surname"></label>
-              <input
-                type="text"
-                name="surname"
-                id="surname"
-                required
-                placeholder="Prénom*"
-                pattern="^[A-Za-zÀ-ÖØ-öø-ÿ-' ]+$"
-                size="20"
-              />
-            </div>
-
-            <div class="twocols">
-              <label for="email"></label>
-              <input
-                type="text"
-                name="email"
-                id="email"
-                required
-                placeholder="Email*"
-                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-                size="30"
-              />
-            </div>
-
-            <div class="twocols">
-              <label for="phone"></label>
-              <input
-                type="text"
-                name="phone"
-                id="phone"
-                placeholder="Téléphone"
-                pattern="^\d{10}$"
-              />
-            </div>
-
-            <div class="twocols">
-              <label for="website"></label>
-              <input
-                type="text"
-                name="website"
-                id="website"
-                placeholder="Site Internet"
-                pattern="^(http(s)?:\/\/)?(www\.)?([a-zA-Z0-9-]+\.){1,}[a-zA-Z]{2,}"
-              />
-            </div>
-
-            <div class="twocols">
-              <label for="type"></label>
-              <select id="type" name="type">
-                <option value="">Vous êtes</option>
-                <option value="influenceur">Influenceur</option>
-                <option value="industriel">Industriel</option>
-                <option value="investisseur">Investisseur</option>
-                <option value="autre">Autre</option>
-              </select>
-            </div>
-
-            <div class="onecol">
-              <label for="message"></label>
-              <textarea
-                name="message"
-                id="message"
-                cols="30"
-                rows="10"
-                placeholder="Votre message"
-                style="resize: none"
-              ></textarea>
-            </div>
-
-            <div class="onecol">
-              <button type="submit">Envoyer</button>
-            </div>
-
-          </div>
+          <label for="name"></label>
+            <input type="text" name="name" id="name" required placeholder="Nom*" pattern="^[A-Za-zÀ-ÖØ-öø-ÿ-' ]+$" size="20"/>
+          <label for="surname"></label>
+            <input type="text"name=" surname" id="surname" required placeholder="Prénom*" pattern="^[A-Za-zÀ-ÖØ-öø-ÿ-' ]+$" size="20"/>
+          <label for="email"></label>
+            <input type="text" name="email" id="email" required placeholder="Email*" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" size="30"/>
+          <label for="phone"></label>
+            <input type="text" name="phone" id="phone" placeholder="Téléphone" pattern="^\d{10}$"/>
+          <label for="website"></label>
+            <input type="text" name="website" id="website"placeholder="Site Internet" pattern="^(http(s)?:\/\/)?(www\.)?([a-zA-Z0-9-]+\.){1,}[a-zA-Z]{2,}"/>
+          <label for="type"></label>
+            <select id="type" name="type">
+              <option value="">Vous êtes</option>
+              <option value="influenceur">Influenceur</option>
+              <option value="industriel">Industriel</option>
+              <option value="investisseur">Investisseur</option>
+              <option value="autre">Autre</option>
+            </select>
+          <label for="message"></label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre message" style="resize: none"></textarea>
+            <input type="submit" value="Envoyer"/>
         </form>
-      </section>
+      </div>
 
-      <!-- ******************** COORDONNEES SITEMAP NEWSLETTER ******************** -->
-
-      <section class="bluefooter borderbottomtop">
-        <div class="flex">
-          <div class="threecols">
-            <h3 class="blanc">NOUS SITUER</h3>
-            <p class="blanc">
-              LVF - Le Vélomobile Français<br> 
-              14, rue Louis Lépine<br> 
-              34000 Montpellier<br> 
-              Tél. : +33 (0)9 87 65 43 32
-            </p>
-          </div>
-
-          <div class="threecols">
-            <h3 class="blanc">SITEMAP</h3>
-            <p class="blanc">
-              Accueil<br> 
-              Nos vélosmobiles<br> 
-              Notre entreprise<br> 
-              Notre atelier<br> 
-            </p>
-          </div>
-
-          <div class="threecols">
-            <h3 class="blanc">DEMOCRATISER LE VELOMOBILE</h3>
-              <form action="">
-                    <label for="email"></label>
-                    <input
-                      type="email"
-                      id="email"
-                      size="30"
-                      required
-                      placeholder="Email*"
-                      pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
-                    />
-          </div>
+      <div class="footer-info">
+        <hr/>
+        <div class="footer-info-info">
+          <ul>
+            <h2>Nous situer</h2>
+            <li><a href="">LVF - Le Vélomobile Français</a></li>
+            <li><a href="">14, rue Louis Lépine</a></li>
+            <li><a href="">34000 Montpellier</a></li>
+            <li><a href="">Tél.: +33 (0)9 87 65 43 32</a></li>
+          </ul>
+          <ul>
+            <h2>Sitemap</h2>
+            <li><a href="">Accueil</a></li>
+            <li><a href="">Nos Vélomobiles</a></li>
+            <li><a href="">Notre entreprise</a></li>
+            <li><a href="">Notre atelier</a></li>
+          </ul>
         </div>
-      </section>
-
-      <section class=" flex bluefooter small">
-        <div class="twocols">
-        <img src="./../assets/imgs/facebook.png" alt="Facebook" class="socials">
-        <img src="./../assets/imgs/facebook.png" alt="Facebook" class="socials">
-        <img src="./../assets/imgs/facebook.png" alt="Facebook" class="socials">
-        <img src="./../assets/imgs/facebook.png" alt="Facebook" class="socials">
-
+        <hr />
+        <div class="media">
+          <img src="../assets/imgs/youtube.png" alt="" />
+          <img src="../assets/imgs/dailymotion.webp" alt="" />
+          <img src="../assets/imgs/facebook.png" alt="" />
+          <img src="../assets/imgs/instagram.png" alt="" />
         </div>
-        <div class="twocols">
-          <p class="blanc">Mentions légales   -   Données personnelles - (c) LVF Tous droits réservés.</p>
-          </div>
-  
-      </section>
+        <div class="mention">
+          <p>Mentions légales</p>
+          <p>Données personnelles</p>
+          <p>(c)LVF Tous droits réservés.</p>
+        </div>
+      </div>
 
     </footer>
 
