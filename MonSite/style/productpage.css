@@ -84,8 +84,19 @@ h3 {
     background-color: #F3F6F9;
 }
 
-
-
+/* Liste carte*/
+.twocols {
+    flex-basis: 45%;
+  }
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+.Mg {
+    margin: 0 5% 0 5%;
+}
 /************AFFICHAGE Telephone****************/
 @media (min-width: 480px) {
 
@@ -150,7 +161,7 @@ h3 {
 }
 }
 
- 
+
 
 /*********AFFICHAGE Tablette/ PC Portable*******/
 
@@ -248,29 +259,7 @@ h3 {
 /************AFFICHAGE PC moyen***********/
 
 @media (min-width: 1400px) {
-    .ListTitle{
-        font-size: 2.5em;
-        }
-        
-    .TextList{
-            font-size: 2em; 
-        }
-    .Container h3 {
-            font-size: 3em;
-        }
-    
-    
-    .PresentationProduitCol p {
-        font-size: 2em;
-    
-    }
-    .ResponsiveCol p{
-        font-size: 2em;}
 
-    .Title{
-            font-size: 3em;
-        }
-    
 }
 
  
