@@ -1,5 +1,6 @@
 body {
     color: #1C5386;
+    margin:0
 }
 p{
     margin-right: 5%;
@@ -83,15 +84,7 @@ h3 {
     background-color: #F3F6F9;
 }
 
-/* Map Leaflet */
-#mapid{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 500px;
-    width: 500px;
-    margin: 10% 20%;
-}
+
 
 /************AFFICHAGE Telephone****************/
 @media (min-width: 480px) {
@@ -103,20 +96,9 @@ h3 {
 
 /************AFFICHAGE Tablette****************/
 
-@media (min-width: 767px) {    .ResponsiveRow {
-    display: flex;
-    flex-direction: row;
-}
-.ResponsiveCol{
-    display: flex;
-    flex-direction: column;
-}
-.ImgTransport{
-    height: 15em ;
-    width: 17em;
-    padding: 1em 1em 0 1em;
-    border-radius: 20%;
-}
+@media (min-width: 767px) {    
+
+
 .TopPage {
     background-image: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
     url("../assets/imgs/velomobile_p3.webp");
@@ -129,6 +111,10 @@ h3 {
     align-items: center;
     justify-content: center;
 }
+.TopPage h1{
+    font-size: 3em;
+}
+
 .Inconvénients{
     display: flex;
     flex-direction: row;
@@ -136,13 +122,31 @@ h3 {
 .PresentationProduit{
     display: flex;
     flex-direction: row;
+    flex-basis: 40% ;
 }
 .PresentationProduitCol{
     display: flex;
     flex-direction: column;
+    width: 50%;
 }
 .ImgModele{
     contain: content;
+}
+
+.Modele {
+    display: flex;
+    flex-direction: row;
+}
+.Modele :first-child{
+    padding-top: 1em;
+}
+.ListeModele {
+    padding: 0;
+    margin: 0;
+}
+.DivCont{
+    display: flex;
+    width: 50%;
 }
 }
 
@@ -152,9 +156,8 @@ h3 {
 
 @media (min-width: 991px) {
  
-.ResponsiveCol p{
-        font-size: 1.5em;
-}
+
+
 .TopPage {
     background-image: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
     url("../assets/imgs/velomobile_p3.webp");
@@ -168,24 +171,106 @@ h3 {
     justify-content: center;
 }
 
+.ImgTransport{
+    height: 15em ;
+    width: 19em;
+    padding: 1em 1em 0 1em;
+    border-radius: 20%;
+
+}
+.ResponsiveCol{
+    display: flex;
+    flex-direction: column;
+}
+.ResponsiveRow {
+    display: flex;
+    flex-direction: row;
+}
+.ListTitle{
+    font-size: 1.5em;
+    }
+    
+.TextList{
+        font-size: 1.3em; 
+    }
+.Container h3 {
+        font-size: 2em;
+    }
+
+.ContModele {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.PresentationProduitCol p {
+    font-size: 2em;
+
+}
+.ResponsiveCol p{
+    font-size: 1.5em;}
+
+    .Title{
+        font-size: 2em;
+    }
 }
 
-   
+  
 
  
 
 /************AFFICHAGE PC Portable/PC petit***********/
 
 @media (min-width: 1200px) {
-
+    .ListTitle{
+        font-size: 2em;
+        }
+        
+        .TextList{
+            font-size: 1.5em; 
+        }
+        .Container h3 {
+            font-size: 3em;
+        }
+        .ColorBg h2{
+            font-size: 3em;
+        }
+        .ResponsiveCol h2{
+            font-size: 3em;
+        }
+        .ResponsiveCol p{
+            font-size: 1.5em;}
 }
+
 
  
 
 /************AFFICHAGE PC moyen***********/
 
 @media (min-width: 1400px) {
+    .ListTitle{
+        font-size: 2.5em;
+        }
+        
+    .TextList{
+            font-size: 2em; 
+        }
+    .Container h3 {
+            font-size: 3em;
+        }
+    
+    
+    .PresentationProduitCol p {
+        font-size: 2em;
+    
+    }
+    .ResponsiveCol p{
+        font-size: 2em;}
 
+    .Title{
+            font-size: 3em;
+        }
+    
 }
 
  
