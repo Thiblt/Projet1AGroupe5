@@ -3,6 +3,11 @@ body {
 }
 p{
     margin-right: 5%;
+    font-size: 1em;
+}
+
+h3 {
+    text-align: center;
 }
 /* Haut de la page produit */
 
@@ -56,7 +61,7 @@ p{
 }
 
 .Container{
-    margin: 0 5% 0 5%;
+    padding: 0 1em 1em 1em;
 }
 
 .TextList {
@@ -74,4 +79,119 @@ p{
     height: auto;
 }
 
-.color
+.ColorBg{
+    background-color: #F3F6F9;
+}
+
+/* Map Leaflet */
+#mapid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+    margin: 10% 20%;
+}
+
+/************AFFICHAGE Telephone****************/
+@media (min-width: 480px) {
+
+
+}
+
+ 
+
+/************AFFICHAGE Tablette****************/
+
+@media (min-width: 767px) {    .ResponsiveRow {
+    display: flex;
+    flex-direction: row;
+}
+.ResponsiveCol{
+    display: flex;
+    flex-direction: column;
+}
+.ImgTransport{
+    height: 15em ;
+    width: 17em;
+    padding: 1em 1em 0 1em;
+    border-radius: 20%;
+}
+.TopPage {
+    background-image: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
+    url("../assets/imgs/velomobile_p3.webp");
+    height: 25em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Inconvénients{
+    display: flex;
+    flex-direction: row;
+}
+.PresentationProduit{
+    display: flex;
+    flex-direction: row;
+}
+.PresentationProduitCol{
+    display: flex;
+    flex-direction: column;
+}
+.ImgModele{
+    contain: content;
+}
+}
+
+ 
+
+/*********AFFICHAGE Tablette/ PC Portable*******/
+
+@media (min-width: 991px) {
+ 
+.ResponsiveCol p{
+        font-size: 1.5em;
+}
+.TopPage {
+    background-image: linear-gradient(rgba(12, 91, 165, 0.3), rgba(12, 91, 165, 0.507)),
+    url("../assets/imgs/velomobile_p3.webp");
+    height: 30em;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+}
+
+   
+
+ 
+
+/************AFFICHAGE PC Portable/PC petit***********/
+
+@media (min-width: 1200px) {
+
+}
+
+ 
+
+/************AFFICHAGE PC moyen***********/
+
+@media (min-width: 1400px) {
+
+}
+
+ 
+
+/************AFFICHAGE PC grand***********/
+
+@media (min-width: 1600px) {
+
+}
