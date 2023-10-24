@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="levelomobilefrançais, vélomobile, vélomobile français, écologie, fabrication française, vélomobile pas cher">
+    <script src="./../script/product.page.js" defer></script>
+    <link rel="stylesheet" href="./../style/main.css" />
+    <link rel="stylesheet" href="./../style/header.css" />
+    <link href="https://api.fontshare.com/v2/css?f[]=satoshi@700,500&display=swap" rel="stylesheet" />
+    <link href="/style/header.css">
+     <link rel="stylesheet" href="./../style/formulaire.css"> 
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+
+    />
+
+    <!-- ******************** leaflet JS ******************** -->
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+
+    <title>Notre Entreprise</title>
+  </head>
+
+  <body>
+    <!-- ******************** HEADER  ******************** -->
+
+    <header class="TopPage_entreprise">
+      <div class="TopPage" > 
+        <nav class="navbar">
+          <div class="logotitre">
+            <img src="/asset/logo.png" id="logo">
+            <h1 id="h1navbar">Le Vélomobile<br>Français</h1>
+          </div>
+              <div class="menu-container">
+                <label for="menu-toggle" id="menu-icon">
+                    <img src="/asset/burger-bar.png" style="width: 30px; height: 30px;"><input type="checkbox" id="menu-toggle">
+                    <div class="menu">
+                      <ul>
+                        <li><a href="#home"> Accueil </a></li>
+                        <li> <a href="#pricing"> Nos vélomobiles </a></li>
+                        <li> <a href="#blog"> Notre entreprise </a> </li>
+                        <li><a href="#docs"> Notre atelier </a></li>
+                      </ul>
+                      <ul>
+                        <li>
+                          <button id="newsletter" href=""> newsletter </a>
+                        </li>
+                      </ul>
+                    </div>
+                  </label>
+              </div>
+              
+     
+                <ul id="grandul">
+                  <li class="grandli"><a href='http://'>Accueil</a></li>
+                  <li class="grandli"><a href='http://'> Nos vélomobiles</a></li>
+                  <li class="grandli"><a href='http://'>Notre entreprise</a></li>
+                  <li class="grandli"><a href='http://'>Notre atelier</a></li>
+                  <li class="grandli">
+                  <a>  <button id="grandbnt" href=""> newsletter </a>
+                  </li>
+                </ul>
+              
+        </nav> 
+      </div>
+
+      <h1>Notre entreprise</h1>
+      <div>
+        <button type="submit">Contactez-nous</button>
+      </div>
+    </header>
+    
+    <main class="container">
+
+    <!-- ******************** PARAGRAPHE INTRODUCTION ******************** -->
+
+      <section>
+        <h2>Lorem ipsum</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+          pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+          culpa qui officia deserunt mollit anim id est magna aliqua. Ut enim ad
+          minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+          aliquip ex ea commodo consequat. Duis aute irure dolor in
+          reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+        </p>
+      </section>
+
+      <!-- ******************** NOS VALEURS ******************** -->
+
+      <section class="values">
+        <h2>Nos valeurs</h2>
+
+        <div class="flex">
+          <div class="cadre threecols">
+            <h3>PRESERVER L'ENVIRONNEMENT</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              excepturi earum distinctio dolores sed. Cum recusandae eos rem
+              eveniet aut. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Sequi excepturi earum distinctio dolores sed. Cum recusandae
+              eos rem eveniet aut.
+            </p>
+          </div>
+
+          <div class="cadre threecols">
+            <h3>100% MADE IN FRANCE</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              excepturi earum distinctio dolores sed. Cum recusandae eos rem
+              eveniet aut. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Sequi excepturi earum distinctio dolores sed. Cum recusandae
+              eos rem eveniet aut.
+            </p>
+          </div>
+
+          <div class="cadre threecols">
+            <h3>DEMOCRATISER LE VELOMOBILE</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi
+              excepturi earum distinctio dolores sed. Cum recusandae eos rem
+              eveniet aut. Lorem ipsum dolor sit amet, consectetur adipisicing
+              elit. Sequi excepturi earum distinctio dolores sed. Cum recusandae
+              eos rem eveniet aut.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ******************** NOTRE EQUIPE ******************** -->
+
+      <section class="section_intro">
+        <h2>Notre équipe</h2>
+
+        <div class="flex">
+          <div class="team threecols">
+            <img
+              src="../assets/imgs/gender-neutral-user_hires.png"
+              alt="avatar"
+            />
+            <p class="credits">Prénom, NOM Fonction</p>
+          </div>
+
+          <div class="team threecols">
+            <img
+              src="../assets/imgs/gender-neutral-user_hires.png"
+              alt="avatar"
+            />
+            <p class="credits">Prénom, NOM Fonction</p>
+          </div>
+
+          <div class="team threecols">
+            <img
+              src="../assets/imgs/gender-neutral-user_hires.png"
+              alt="avatar"
+            />
+            <p class="credits">Prénom, NOM Fonction</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- ******************** NOUS SITUER (CARTE INTERACTIVE) ******************** -->
+
+      <section class="pastelblue">
+        <h2>Nous situer</h2>
+        <div id="map"></div>
+
+        <script>
+          const map = L.map("map").setView([51.505, -0.09], 13);
+
+          const tiles = L.tileLayer(
+            "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+            {
+              maxZoom: 19,
+              attribution:
+                '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+            }
+          ).addTo(map);
+        </script>
+
+        <div class="flex">
+          <div class="twocols">
+            <h3>AGDE</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              volutpat purus massa, sed efficitur mauris rhoncus non. Vivamus
+              sit amet dictum libero.
+            </p>
+          </div>
+
+          <div class="twocols">
+            <h3>SALON-DE-PROVENCE</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              volutpat purus massa, sed efficitur mauris rhoncus non. Vivamus
+              sit amet dictum libero.
+            </p>
+          </div>
+
+          <div class="twocols">
+            <h3>SAINT-NAZAIRE</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              volutpat purus massa, sed efficitur mauris rhoncus non. Vivamus
+              sit amet dictum libero.
+            </p>
+          </div>
+
+          <div class="twocols">
+            <h3>CASSIS</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              volutpat purus massa, sed efficitur mauris rhoncus non. Vivamus
+              sit amet dictum libero.
+            </p>
+          </div>
+
+          <div class="twocols">
+            <h3>MONTPELLIER</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              volutpat purus massa, sed efficitur mauris rhoncus non. Vivamus
+              sit amet dictum libero.
+            </p>
+          </div>
+
+          <div class="twocols">
+            <h3>MENDE</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. In
+              volutpat purus massa, sed efficitur mauris rhoncus non. Vivamus
+              sit amet dictum libero.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ******************** FOOTER ******************** -->
+
+    <footer>
+      <!-- ******************** NEWSLETTER ******************** -->
+
+      <section class="bluefooter bgnewsletter">
+        <h2 class="blanc">Abonnez-vous à notre Newsletter</h2>
+
+        <p class="blanc">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut nostrum
+          quisquam nesciunt perspiciatis quibusdam quia ullam natus quod ipsum
+          corrupti pariatur modi minima. Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Aut nostrum quisquam nesciunt perspiciatis quibusdam
+          quia ullam natus quod ipsum corrupti pariatur modi minima.
+        </p>
+
+        <form action="">
+          <div class="flexnews">
+            <div class="twocols">
+              <label for="email"></label>
+              <input
+                type="email"
+                id="email"
+                size="30"
+                required
+                placeholder="Email*"
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+              />
+              <p>En s'abonnant, vous acceptez les conditions d'utilisation</p>
+            </div>
+
+            <div>
+              <button type="submit">S'abonner</button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <!-- ******************** FORMULAIRE DE CONTACT ******************** -->
+
+      <section class="bluefooter">
+        <h2 class="blanc">Formulaire de contact</h2>
+
+        <form action="">
+          <div class="flex">
+            <div class="twocols">
+              <label for="name"></label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                required
+                placeholder="Nom*"
+                pattern="^[A-Za-zÀ-ÖØ-öø-ÿ-' ]+$"
+                size="20"
+              />
+            </div>
+
+            <div class="twocols">
+              <label for="surname"></label>
+              <input
+                type="text"
+                name="surname"
+                id="surname"
+                required
+                placeholder="Prénom*"
+                pattern="^[A-Za-zÀ-ÖØ-öø-ÿ-' ]+$"
+                size="20"
+              />
+            </div>
+
+            <div class="twocols">
+              <label for="email"></label>
+              <input
+                type="text"
+                name="email"
+                id="email"
+                required
+                placeholder="Email*"
+                pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                size="30"
+              />
+            </div>
+
+            <div class="twocols">
+              <label for="phone"></label>
+              <input
+                type="text"
+                name="phone"
+                id="phone"
+                placeholder="Téléphone"
+                pattern="^\d{10}$"
+              />
+            </div>
+
+            <div class="twocols">
+              <label for="website"></label>
+              <input
+                type="text"
+                name="website"
+                id="website"
+                placeholder="Site Internet"
+                pattern="^(http(s)?:\/\/)?(www\.)?([a-zA-Z0-9-]+\.){1,}[a-zA-Z]{2,}"
+              />
+            </div>
+
+            <div class="twocols">
+              <label for="type"></label>
+              <select id="type" name="type">
+                <option value="">Vous êtes</option>
+                <option value="influenceur">Influenceur</option>
+                <option value="industriel">Industriel</option>
+                <option value="investisseur">Investisseur</option>
+                <option value="autre">Autre</option>
+              </select>
+            </div>
+
+            <div class="onecol">
+              <label for="message"></label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Votre message"
+                style="resize: none"
+              ></textarea>
+            </div>
+
+            <div class="onecol">
+              <button type="submit">Envoyer</button>
+            </div>
+
+          </div>
+        </form>
+      </section>
+
+      <!-- ******************** COORDONNEES SITEMAP NEWSLETTER ******************** -->
+
+      <section class="bluefooter borderbottomtop">
+        <div class="flex">
+          <div class="threecols">
+            <h3 class="blanc">NOUS SITUER</h3>
+            <p class="blanc">
+              LVF - Le Vélomobile Français<br> 
+              14, rue Louis Lépine<br> 
+              34000 Montpellier<br> 
+              Tél. : +33 (0)9 87 65 43 32
+            </p>
+          </div>
+
+          <div class="threecols">
+            <h3 class="blanc">SITEMAP</h3>
+            <p class="blanc">
+              Accueil<br> 
+              Nos vélosmobiles<br> 
+              Notre entreprise<br> 
+              Notre atelier<br> 
+            </p>
+          </div>
+
+          <div class="threecols">
+            <h3 class="blanc">DEMOCRATISER LE VELOMOBILE</h3>
+              <form action="">
+                    <label for="email"></label>
+                    <input
+                      type="email"
+                      id="email"
+                      size="30"
+                      required
+                      placeholder="Email*"
+                      pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}"
+                    />
+          </div>
+        </div>
+      </section>
+
+      <section class=" flex bluefooter small">
+        <div class="twocols">
+        <img src="./../assets/imgs/facebook.png" alt="Facebook" class="socials">
+        <img src="./../assets/imgs/facebook.png" alt="Facebook" class="socials">
+        <img src="./../assets/imgs/facebook.png" alt="Facebook" class="socials">
+        <img src="./../assets/imgs/facebook.png" alt="Facebook" class="socials">
+
+        </div>
+        <div class="twocols">
+          <p class="blanc">Mentions légales   -   Données personnelles - (c) LVF Tous droits réservés.</p>
+          </div>
+  
+      </section>
+
+    </footer>
+
+
+    <!-- ******************** SCRIPT ANALYTICS (plausible.io) ******************** -->
+    <!-- PAS LE TEMPS DE S'EN OCCUPER !!!!!!! -->
+
+
+  </body>
+</html>
