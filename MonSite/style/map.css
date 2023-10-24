@@ -7,21 +7,19 @@
 }
 
 #mapid{
- height: 15em;
- width: 25em;
+ height: 500px;
+ width: 100%;
+
  margin-top: 5%;
 }
 
 /************AFFICHAGE Tablette****************/
 
 @media (min-width: 767px) {
-    #mapid{
-        height: 30em;
-        width: 40em;
-        margin-top: 5%;
+ 
        }
     
- }
+ 
 
 /*********AFFICHAGE Tablette/ PC Portable*******/
 
@@ -32,10 +30,6 @@
 /************AFFICHAGE PC Portable/PC petit***********/
 
 @media (min-width: 1200px) {
-    #mapid{
-        height: 45em;
-        width: 60em;
-        margin-top: 5%;
+
        }
     
-}
