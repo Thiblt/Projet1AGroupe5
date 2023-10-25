@@ -74,6 +74,7 @@
   #newsletter {
     padding: 9px;
     font-size: 0.8em;
+    color: white;
     background-color: rgba(216, 38, 26, 1);
     border-radius: 24px;
     border: 4px solid rgba(216, 38, 26, 1);
@@ -108,11 +109,15 @@
   
   #grandbnt {
     padding: 9px;
+    color: white;
     font-size: 0.8em;
     background-color: rgba(216, 38, 26, 1);
     border-radius: 24px;
     border: 4px solid rgba(216, 38, 26, 1);
     box-shadow: 3px 4px 12px #444444;
+  }
+  .ColorLink {
+    color: #015579
   }
   
   @media (min-width: 300px) {

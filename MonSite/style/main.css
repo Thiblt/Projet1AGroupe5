@@ -138,7 +138,9 @@ section {
 {
   margin:0 20% 0 20%;
 }
-
+.velohome {
+  width: 100%;
+}
 /* ---------------------------- LES FLEX ---------------------------- */
 
 
@@ -229,7 +231,7 @@ section {
       rgba(12, 91, 165, 0.507)
     ),
     url("../assets/imgs/velomobile_p3.webp") cover no-repeat center;
-  height: 50vh;
+  height: 70vh;
 
   display: flex;
   flex-direction: column;
@@ -243,7 +245,7 @@ section {
       rgba(12, 91, 165, 0.507)
     ),
     url("../assets/imgs/velomobile_p3.webp");
-  height: 50vh;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -259,7 +261,7 @@ section {
       rgba(12, 91, 165, 0.507)
     ),
     url("../assets/imgs/atelier2.webp");
-  height: 50vh;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -275,7 +277,7 @@ section {
       rgba(12, 91, 165, 0.507)
     ),
     url("../assets/imgs/route_foret.webp");
-  height: 50vh;
+  height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -295,10 +297,23 @@ h1 {
   color: white;
   background-color: #d8261a;
   border-radius: 12px;
-  padding: 0.5em 1em 0.5em 1em;
+  padding: 1em 1.5em 1em 1.5em;
   text-align: center;
   border: none;
   font-size: large;
+}
+
+.RedButtonLink{
+  outline: none;
+  border: 2px solid #d8261a;
+  border-radius: 50px;
+  background-color: #d8261a;
+  font-size: 1.2em;
+  color: white;
+  padding: 25px;
+}
+.Space {
+  padding-bottom: 3em;
 }
 
 /* ---------------------------- Formulaire ---------------------------- */
