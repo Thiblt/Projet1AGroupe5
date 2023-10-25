@@ -6,7 +6,7 @@ footer {
   margin: 0;
   padding: 0;
 }
-footer a{
+footer a {
   color: white;
 }
 body {
@@ -164,7 +164,7 @@ h2 {
   align-items: left;
   padding-left: 5%;
 }
-.footer-info-info{
+.footer-info-info {
   width: 100%;
   display: flex;
   justify-content: flex-start;
@@ -173,7 +173,7 @@ h2 {
 }
 
 /*social media*/
-.media  {
+.media {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -186,13 +186,13 @@ h2 {
   padding-right: 3%;
   cursor: pointer;
 }
-.mention{
+.mention {
   margin-top: 3%;
   width: 90%;
   display: flex;
   justify-content: space-around;
 }
-.mention p{
+.mention p {
   font-size: 0.6em;
 }
 
@@ -254,7 +254,7 @@ h2 {
     padding-left: 2%;
   }
   /***taille input formulaire de contact*/
-  .footer-form input:nth-of-type(6){
+  .footer-form input:nth-of-type(6) {
     width: 200px;
     font-size: 1.2em;
   }
@@ -275,7 +275,7 @@ h2 {
   .footer-form {
     padding: 0 5% 0 5%;
   }
-  .footer-form p{
+  .footer-form p {
     margin-bottom: 3%;
   }
   .footer-form input:nth-of-type(1),
@@ -303,27 +303,29 @@ h2 {
 
 /************AFFICHAGE PC Portable/PC petit***********/
 @media (min-width: 1200px) {
-  .footer-form form,.footer-info hr,.footer-info-info{
+  .footer-form form,
+  .footer-info hr,
+  .footer-info-info {
     width: 75%;
   }
- .footer-info-info{
+  .footer-info-info {
     padding: 0 12.5% 0 12.5%;
     justify-content: space-around;
   }
-  .footer-info-info ul:first-of-type{
-    padding-right: 20% ;
+  .footer-info-info ul:first-of-type {
+    padding-right: 20%;
   }
-  .mention{
+  .mention {
     width: 50%;
     padding: 0 25% 0 25%;
   }
-  .mention p{
+  .mention p {
     font-size: 1em;
   }
   .media img {
     height: 3em;
   }
-  .mention{
+  .mention {
     margin-top: 3%;
   }
 }

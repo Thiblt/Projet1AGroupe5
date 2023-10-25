@@ -18,19 +18,15 @@ p {
   text-align: justify;
 }
 
-
-/* [16:15] Frédéric BARTHES
-.imgrounded
-{
+.illustration {
   width: 100%;
-  height: 300px;
+}
+.imgrounded {
   border-radius: 30px;
- 
--webkit-box-shadow: 0px 10px 5px 0px rgba(28,83,134,0.25);
--moz-box-shadow: 0px 10px 5px 0px rgba(28,83,134,0.25);
-box-shadow: 0px 10px 5px 0px rgba(28,83,134,0.25);
- 
-} */
+  -webkit-box-shadow: 0px 10px 5px 0px rgba(28, 83, 134, 0.25);
+  -moz-box-shadow: 0px 10px 5px 0px rgba(28, 83, 134, 0.25);
+  box-shadow: 0px 10px 5px 0px rgba(28, 83, 134, 0.25);
+}
 
 h2 {
   text-align: center;
@@ -134,15 +130,24 @@ section {
   background-color: rgb(30, 83, 134);
 }
 
-.velofloating
-{
-  margin:0 20% 0 20%;
+.RedButtonLink{
+  outline: none;
+  border: 2px solid #d8261a;
+  border-radius: 50px;
+  background-color: #d8261a;
+  font-size: 1.2em;
+  color: white;
+  padding: 15px;
 }
-.velohome {
-  width: 100%;
+.Space {
+  padding-bottom: 3em;
 }
-/* ---------------------------- LES FLEX ---------------------------- */
 
+.white {
+  color: white;
+}
+
+/* ---------------------------- LES FLEX ---------------------------- */
 
 .flex {
   display: flex;
@@ -172,8 +177,7 @@ section {
   flex-basis: 25%;
 }
 
-.verticalcenter
-{
+.verticalcenter {
   align-items: center;
 }
 
@@ -217,10 +221,18 @@ section {
   height: 300px;
 }
 
-.redcheckmark
-{
-  list-style-image: url("./../assets/imgs/redcheck.png");
-  font-size: 25px ;
+.redcheckmark li {
+  list-style-image: url("./../assets/imgs/redcheck.png") !important;
+}
+
+ul {
+  list-style-image: url("./../assets/imgs/redcheck.png") !important;
+}
+
+.velohome {
+  width: 90vw;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 /* ---------------------------- Hauts de page produit ---------------------------- */
@@ -231,7 +243,7 @@ section {
       rgba(12, 91, 165, 0.507)
     ),
     url("../assets/imgs/velomobile_p3.webp") cover no-repeat center;
-  height: 70vh;
+  height: 50vh;
 
   display: flex;
   flex-direction: column;
@@ -245,7 +257,7 @@ section {
       rgba(12, 91, 165, 0.507)
     ),
     url("../assets/imgs/velomobile_p3.webp");
-  height: 70vh;
+  height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -261,7 +273,7 @@ section {
       rgba(12, 91, 165, 0.507)
     ),
     url("../assets/imgs/atelier2.webp");
-  height: 70vh;
+  height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -277,7 +289,7 @@ section {
       rgba(12, 91, 165, 0.507)
     ),
     url("../assets/imgs/route_foret.webp");
-  height: 70vh;
+  height: 50vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -290,30 +302,17 @@ section {
 h1 {
   text-align: center;
   color: white;
-  font-size: 3em;
+  font-size: 2em;
 }
 
 .RedButton {
   color: white;
   background-color: #d8261a;
   border-radius: 12px;
-  padding: 1em 1.5em 1em 1.5em;
+  padding: 0.5em 1em 0.5em 1em;
   text-align: center;
   border: none;
   font-size: large;
-}
-
-.RedButtonLink{
-  outline: none;
-  border: 2px solid #d8261a;
-  border-radius: 50px;
-  background-color: #d8261a;
-  font-size: 1.2em;
-  color: white;
-  padding: 25px;
-}
-.Space {
-  padding-bottom: 3em;
 }
 
 /* ---------------------------- Formulaire ---------------------------- */
@@ -355,9 +354,9 @@ button {
   border: 2px solid #d8261a;
   border-radius: 50px;
   background-color: #d8261a;
-  font-size: 1.2em;
+  font-size: 1em;
   color: white;
-  padding: 25px;
+  padding: 10px;
 }
 
 /* ---------------------------- AFFICHAGE phone ---------------------------- */
@@ -371,6 +370,20 @@ button {
   .team img {
     max-width: 150px;
   }
+
+  h1 {
+    font-size: 2em;
+  }
+
+  button {
+    outline: none;
+    border: 2px solid #d8261a;
+    border-radius: 50px;
+    background-color: #d8261a;
+    font-size: 1.2em;
+    color: white;
+    padding: 10px;
+  }
 }
 
 /* ---------------------------- AFFICHAGE Tablette ---------------------------- */
@@ -379,6 +392,10 @@ button {
     display: flex;
     flex-direction: column;
     gap: 50px;
+  }
+
+  h1 {
+    font-size: 2.5em;
   }
 }
 
